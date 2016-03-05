@@ -1,0 +1,34 @@
+/* CSS Document */
+
+#t{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:36px;
+	text-align: center;
+	position: absolute;
+	bottom: 45%;
+	left: 25%;
+	width: 50%;
+	color:white;
+}
+
+body{
+	background:url(../images/sherlockholmes110914000424.jpg)no-repeat center center fixed;
+}
+
+#t a:link{
+	color: darkgray;
+	 font-size: 36px;
+	 text-decoration:none;
+}
+
+#t a:visited {
+     color: white;
+	 font-size: 36px;
+	 text-decoration:none;
+}
+
+#t a:active {
+     color: black;
+	 font-size: 36px;
+	 text-decoration:underline;
+}
