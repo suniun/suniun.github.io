@@ -1,0 +1,32 @@
+/* CSS Document */
+ 
+#one{
+	width: 100%;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+#two{
+	width:100%;
+	padding:100px 100px 100px 100px;
+}
+
+#three{
+	border:9px double blue;
+	width: 80%;
+	margin: 40px;
+	padding: 50px 20px;
+	text-align: center;
+}
+
+#four{
+	width:49%;
+	float:left;
+	padding-right:1%;
+}
+
+#five{
+	width:49%;
+	float:left;
+	padding-right:1%;
+}
