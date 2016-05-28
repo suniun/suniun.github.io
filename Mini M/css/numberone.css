@@ -1,0 +1,100 @@
+/* CSS Document */
+h1{ 
+    color: white;
+    font-size: 98px;
+    text-align: left;
+    left: 30%;
+     
+}
+h2{
+    color: darkgreen;
+    font-size: 72px;
+    
+    line-height: 2em;
+}
+#level1{
+    height: 600px;
+    background: url('../images/jeep.jpg');
+    background-size: cover
+}
+ 
+#mlink{
+    color: black;
+    font-size: 36px;
+    font-family: fantasy;
+ 
+    text-align: center;
+    border: 1px solid white;
+    
+}
+
+
+#mlink a:active{
+    color: gainsboro;
+    text-decoration: underline;
+    }
+
+
+#mlink a:link{
+    color: beige;
+    text-decoration: none;
+}
+
+#mlink a:visited{
+    color: darkgray;
+    text-decoration: none;
+}
+
+#paper{
+    margin-top: 1em;
+    font-size: 20px;
+   
+    width: 95%;
+}
+
+#img{
+    margin: auto;
+    padding-left: 10% auto;
+    width: 50%;
+}
+#r{
+    margin-left: 100%;
+}
+
+#mainbody{
+	clear: both;
+    width: 75%;
+    max-width: 100em;
+    margin: 0 auto;
+    padding: 1em 0px;
+    color: #333;
+    line-height: 2em;
+   position: relative;
+}
+
+#slideshow{
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+}
+
+footer{
+     background-color:cadetblue;
+    font-family: fantasy;
+    font-size: 20px;
+    color: aliceblue;
+    padding:10px;
+    margin-bottom: 0;
+}
+
+#sign{
+    text-align: right;
+    margin-right: 5%;
+    bottom: 0;
+}
+
+
+	
+/* done */	

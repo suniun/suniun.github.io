@@ -1,0 +1,98 @@
+/* CSS Document */
+
+h1{
+    color: white;
+    font-size: 98px;
+    text-align: left;
+    left: 30%;
+    bottom: 80%;    
+}
+
+h2{
+    color:darkblue;
+    font-size: 72px;
+    
+    line-height: 2em;
+}
+
+#subtop{
+     height: 600px;
+    background: url('../images/subaru.jpg');
+    background-size: cover;
+}
+
+#history{
+    color: black;
+    font-size: 36px;
+    font-family: fantasy;
+   
+    text-align: right;
+    border: 1px solid white;
+    }
+#history a:active{
+     color: gainsboro;
+    text-decoration: underline;
+}
+#history a:link{
+     color: beige;
+    text-decoration: none;
+}
+#history a:visited{
+    color: darkgray;
+    text-decoration: none;
+}
+
+
+
+
+#slink{
+    color: black;
+    font-size: 36px;
+    font-family: fantasy;
+   
+    text-align: center;
+    border: 1px solid white;
+}
+
+
+#slink a:active{
+    color: gainsboro;
+    text-decoration: underline;
+    }
+
+
+#slink a:link{
+    color: beige;
+    text-decoration: none;
+}
+
+#slink a:visited{
+    color: darkgray;
+    text-decoration: none;
+}
+
+/*  footer  */
+footer{
+    background-color:cadetblue;
+    font-family: fantasy;
+    font-size: 20px;
+    color: aliceblue;
+    padding:10px;
+	bottom:0;
+}
+#sign{
+    text-align: right;
+    margin-right: 5%;
+}
+
+#mainbody{
+	clear: both;
+    width: 75%;
+    max-width: 100em;
+    margin: 0 auto;
+    padding: 1em 0px;
+    color: #333;
+    line-height: 2em;
+    position: relative;
+}
+

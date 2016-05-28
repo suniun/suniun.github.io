@@ -1,0 +1,66 @@
+/* CSS Document */
+
+/* development helper style */
+
+.col {
+	background:rgba(150,200,237,1.00);
+	box-sizing:border-box;
+    }
+
+/* main style */
+
+body {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+    }
+
+header {
+	height:6em;/* 6*16 = 96px */
+	text-align:center;
+	padding:2em;
+	background:rgba(137,176,236,1.00);
+	margin-bottom:.5em;
+    }
+
+nav .col {
+	background:none;
+	border:1px solid #555;
+	text-align:center;
+    box-sizing:border-box;
+	}
+
+#banner {
+	background:#ADE1D7;
+	height:10em;
+	margin-bottom:.5em;
+	}
+			
+#row1 .col{
+	height:6em;
+    }
+	
+#row2 .col{
+	height:12em;
+   }
+
+/* type style */
+h1 {
+	font-size:3em;
+	font-weight:100;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	margin-bottom:.5em;
+    }
+	
+header h2 {
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:.75em;
+	text-transform:uppercase;
+	text-align:center;
+    }
+	
+h2 {	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:.75em;
+	text-transform:uppercase;
+	text-align:center;
+}

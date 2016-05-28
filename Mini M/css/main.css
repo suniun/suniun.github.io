@@ -1,0 +1,146 @@
+/* CSS Document */
+
+h1{
+    color: white;
+    font-size: 98px;
+    text-align: left;
+    margin-left: 5%;
+    bottom: 80%;    
+}
+
+h2{ color: white;
+    font-size: 72px;
+    text-align: left;
+    margin-left: 10%;
+    bottom: 80%; 
+}
+
+
+#top{
+    height: 450px;
+    background: url('../images/homepage.jpg');
+    background-size: cover;
+}
+
+
+#mainlink{
+    color: black;
+    font-size: 36px;
+    font-family: fantasy;
+    text-align: center;
+    border: 1px solid white;
+}
+
+
+#mainlink a:active{
+    color: gainsboro;
+    text-decoration: underline;
+    }
+
+
+#mainlink a:link{
+    color: beige;
+    text-decoration: none;
+}
+
+#mainlink a:visited{
+    color: darkgray;
+    text-decoration: none;
+}
+
+/* wallpaper */
+div.img {
+    margin: 1px;
+    border: 1px solid white;
+    height:200px;
+    width: 10px;
+    
+}
+
+div.img:hover {
+    border: 1px solid #777;
+   
+}
+
+div.img img {
+    width: 98%;
+    height: 200px;
+    
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/* wallpaper */
+section{
+    width: 90%;
+    margin:0 auto;
+}
+/* done wallpaper */
+
+/* video */
+#video{
+    width:90%;
+   	clear: both;
+    max-width: 100em;
+    margin: 0 auto;
+    padding: 1em 0px;
+    color: #333;
+    line-height: 2em;
+    position: relative;
+}
+/* video done */
+
+footer{
+    background-color:cadetblue;
+    font-family: fantasy;
+    font-size: 20px;
+    color: aliceblue;
+    padding:10px;
+}
+#sign{
+    text-align: right;
+    margin-right: 5%;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+   
+    margin: 0 auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 0 solid;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color:white;
+    float: right;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

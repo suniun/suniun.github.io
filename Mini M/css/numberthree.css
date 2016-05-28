@@ -1,0 +1,129 @@
+/* CSS Document */
+
+
+h1{
+    color: white;
+    font-size: 98px;
+    text-align: left;
+    left: 30%;
+    bottom: 80%;    
+}
+
+h2{
+    color:dodgerblue;
+    font-size: 72px;
+    
+    line-height: 2em;
+}
+
+#ttop{
+     height: 600px;
+    background: url('../images/toyota86.jpg');
+    background-size: cover;
+}
+
+
+#tlink{
+    color: black;
+    font-size: 36px;
+    font-family: fantasy;
+   
+    text-align: center;
+    border: 1px solid white;
+}
+
+
+#tlink a:active{
+    color: gainsboro;
+    text-decoration: underline;
+    }
+
+
+#tlink a:link{
+    color: beige;
+    text-decoration: none;
+}
+
+#tlink a:visited{
+    color: darkgray;
+    text-decoration: none;
+}
+
+
+
+#mainbody{
+	clear: both;
+    width: 75%;
+    max-width: 100em;
+    margin: 0 auto;
+    padding: 1em 0px;
+    color: #333;
+    line-height: 2em;
+    position: relative;
+}
+
+
+#newsimg{
+	width:70%;
+	margin:1em auto;
+	}
+#readmore{
+	color:rgba(71,242,191,1.00);
+	font-size:16px;
+	text-align:right;
+}
+#readmore a:link{
+    color:rgba(71,242,191,1.00);
+    text-decoration: none;
+}
+
+#readmore a:visited{
+	color:rgba(71,242,191,1.00);
+    text-decoration: none;
+}
+	
+#mainnews{
+	margin:.5em auto;
+	font-size:15px;
+}
+/*  news  */
+h3{
+	font-size:36px;
+	font-family:orbitron;
+	color:rgba(85,123,240,1.00);
+	margin:.8em auto;
+}
+
+h4{
+    font-size:26px;
+	font-family:orbitron;
+	color:rgba(85,123,240,1.00);
+	margin:.8em auto;
+    
+}
+#news{
+	font-family:carme;
+	font-size:22px;
+	width:75%;
+	margin:.7em auto;
+}
+img{
+	width:100%;
+	margin:1em auto;
+	}
+
+
+
+/*  footer  */
+footer{
+    background-color:cadetblue;
+    font-family: fantasy;
+    font-size: 20px;
+    color: aliceblue;
+    padding:10px;
+	bottom:0;
+}
+#sign{
+    text-align: right;
+    margin-right: 5%;
+}

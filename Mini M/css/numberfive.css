@@ -1,0 +1,43 @@
+/* CSS Document */
+
+
+h1{
+    color: white;
+    font-size: 98px;
+    text-align: left;
+    left: 30%;
+    bottom: 80%;    
+}
+
+#itop{
+     height: 600px;
+    background: url('../images/2015-Infiniti-Q50-Hybrid-AWD-Black-Wallpaper.jpg');
+    background-size: cover;
+}
+
+
+#ilink{
+    color: black;
+    font-size: 36px;
+    font-family: fantasy;
+    position: absolute;
+    text-align: center;
+    border: 1px solid white;
+}
+
+
+#ilink a:active{
+    color: gainsboro;
+    text-decoration: underline;
+    }
+
+
+#ilink a:link{
+    color: beige;
+    text-decoration: none;
+}
+
+#ilink a:visited{
+    color: darkgray;
+    text-decoration: none;
+}
